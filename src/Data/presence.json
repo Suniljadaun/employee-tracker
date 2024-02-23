@@ -1,0 +1,12 @@
+[
+    {
+        "userId":1,
+        "loginTime":"2024-02-22T08:00:00Z",
+        "logoutTime":null
+    },
+    {
+        "userId":2,
+        "loginTime":"2024-02-22T08:30:00Z",
+        "logoutTime":null
+    }
+]

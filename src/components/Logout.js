@@ -3,13 +3,19 @@
 import React from 'react';
 import authService from '../services/authService';
 
-const Logout = ()=>{
+const Logout = ({onLogoutSuccess})=>{
+    const [logoutMessage, setLogoutMessage] = useState('');
+    const [logoutTime, setLogoutTime] = useState('');
     const handleLogout = async()=>{
         try {
             await authService.logout();
+            setLogoutMessage('Logout successful');
+            setLogoutTime(new Date());
+            onLogoutSuccess();
 
         } catch(error){
             console.error(error);
+            setLogoutMessage('Error logging out');
         }
     };
 

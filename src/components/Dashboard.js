@@ -1,3 +1,5 @@
+// Dashboard.js
+
 import React, {useState, useEffect} from 'react';
 import authServices from '../services/authService';
 

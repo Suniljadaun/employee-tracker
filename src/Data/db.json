@@ -1,0 +1,7 @@
+{
+    "users":[
+        {"id":1,"username":"sunil","password":123},
+        {"id":2,"username":"ganesh","password":1234}
+    ],
+    "presence":[]
+}
